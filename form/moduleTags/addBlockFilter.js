@@ -9,10 +9,13 @@ function addListener(css,event) {
     if(event){
         if(text.value.length > 0 && event.keyCode === 13){
             add(text);
+            text.value = '';
         }else{ }
     }else if (text.value.length > 0){
         add(text);
+         text.value = '';
     } 
+   
 }
 
 
