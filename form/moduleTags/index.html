@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css"/> 
+    <script  src="addBlockFilter.js"></script> 
+</head> 
+<body>
+
+
+
+  <div class="divSelectBox" id="divSelectBox">
+        <input id="buttonAddFilter" type="button" value="add" onclick="addListener('#textFilter1')" style="display: inline-block;">
+        <input id="textFilter1" type="text" placeholder="добавить метку поиска" class="textFilter" onkeyup="addListener('#textFilter1',event)">
+    </div>
+ 
+</body>
+</html>
